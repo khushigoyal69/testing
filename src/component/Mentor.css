@@ -1,0 +1,134 @@
+.mentor-section .card {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;
+  border-radius: 30px;
+}
+.mentor-section .desination .des {
+  padding: 8px 16px 8px 16px;
+  gap: 2px;
+  border-radius: 50px;
+  border: 0.5px;
+  opacity: 0px;
+  background: #d9d9d980;
+  border: 0.5px solid #0000001a;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+
+}
+.mentor-section .card-body{
+padding: 20px 35px;
+
+}
+.mentor-section .line{
+  width: 30px;
+height: 0px;
+top: 28px;
+left: 15px;
+
+position: relative;
+
+border: 1px solid #000000
+}
+.mentor-section .social-icon {
+  width: 60px;
+  height: 60px;
+
+  
+}
+.mentor-section .profile-sec .profile-info .name {
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.mentor-section .profile-des{
+  font-family: "Open Sans";
+font-size: 20px;
+font-weight: 400;
+line-height: 33.6px;
+letter-spacing: -0.5px;
+}
+.mentor-section .profile-sec .profile-info .profile-des{
+  font-size: 22.31px;
+}
+.mentor-section .summary{
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.mentorStylebox .mentor-heading h2{
+  font-family: "Space Grotesk";
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+color: #030303;
+}
+.mentorStylebox .mentor-heading p{
+  font-family: "Open Sans";
+font-size: 22.5px;
+font-weight: 400;
+line-height: 33.6px;
+letter-spacing: -0.5px;
+color: #000000CC;
+}
+.mentorStylebox .mentor-box{
+  width: 162px;
+height: 38px;
+top: 30px;
+position: relative;
+left: 508px;
+gap: 0px;
+opacity: 25%;
+background: #4A249D;
+}
+.mentorStylebox .custom-btn {
+  color: black;
+padding-left: 0;
+
+  text-decoration: none;
+}
+
+.mentorStylebox .custom-btn .read{
+  font-family: "Open Sans";
+  font-size: 22.13px;
+  font-weight: 400;
+  line-height: 33.6px;
+  letter-spacing: -0.5px;
+  color: #000000E5;
+}
+.mentorStylebox .custom-btn .icon-spacing{
+ margin-left: 10px;
+ font-size: 20px;
+}
+@media (max-width: 768px) {
+  .mentorStylebox .mentor-box{
+    left: 0;
+  }
+  .mentor-section .card-body{
+    padding: 10px 10px;
+    
+    }
+    .mentor-section .profile-sec .profile-info .profile-des{
+      font-size: 19px;
+    }
+    .mentor-section .desination{
+      justify-content: space-between;
+    }
+
+.mentor-section .mentor-body{
+  padding: 10px 20px;
+  
+  }
+  .mentor-section .desination .des{
+    width: 100%;
+    font-size: 11px;
+ 
+  }
+  .mentor-section .profile-sec .profile-info .name {
+    font-size: 26px;
+  }
+}

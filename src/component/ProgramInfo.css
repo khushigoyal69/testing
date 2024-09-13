@@ -1,0 +1,42 @@
+.costproduct{
+    border: none;
+    background: #E7F0DC;
+    height: 263px;
+    border-radius: 30px;
+   
+  }
+  .product-info h5.card-title{
+    font-family: "Open Sans";
+font-size: 26.03px;
+font-weight: 700;
+line-height: 33.6px;
+letter-spacing: -0.699999988079071px;
+
+
+  }
+.product-info .card-text{
+  font-family: "Open Sans";
+font-size: 16.59px;
+font-weight: 400;
+width: 100%;
+line-height: 25.2px;
+letter-spacing: -0.30000001192092896px;
+
+}
+.product-info .subhead{
+  font-weight: 600;
+}
+  @media (max-width: 768px) {
+   .product-info .card-text{
+      width:100%;
+    }
+    .costproduct{
+      padding-bottom: 20px;
+      height: 280px;
+    }
+    .pro{
+     
+        width: 100%;
+    
+    }
+  }

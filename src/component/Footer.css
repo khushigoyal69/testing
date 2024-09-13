@@ -1,0 +1,37 @@
+.footer-section .head{
+    font-family: "Open Sans";
+    font-size: 26.03px;
+    font-weight: 400;
+    line-height: 33.6px;
+    letter-spacing: -1.56px;
+  
+}
+.footer-section p{
+    font-family: "Open Sans";
+font-size: 12.91px;
+font-weight: 400;
+line-height: 16.8px;
+letter-spacing: -0.20000000298023224px;
+
+}
+.footer-section .button{
+    width: 183px;
+height:48px;
+padding: 12px 20px 12px 20px;
+gap: 0px;
+border-radius: 37px;
+
+
+}
+.footer{
+    background: #1E1515;
+color: #F9F8F5;
+}
+a.mt-3.book-here.btn.btn-light{
+
+padding: 12px 20px 12px 20px;
+gap: 0px;
+border-radius: 37px;
+
+
+}

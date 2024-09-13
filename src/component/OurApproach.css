@@ -1,0 +1,31 @@
+.approach-section div .head{
+    font-family: "Inter";
+font-size: 20px;
+color: #313EF7;
+font-weight: 900;
+line-height: 34px;
+
+
+}
+.approach-section .subhead{
+    font-family: "Space Grotesk";
+font-size: 32px;
+font-weight: 700;
+line-height: 45px;
+
+
+}
+.approach-section .para{
+    font-family: "Open Sans";
+font-size: 22.31px;
+font-weight: 400;
+margin-left: -10px;
+line-height: 33.6px;
+letter-spacing: -0.5px;
+
+
+}
+@media (max-width: 768px) {
+img.img-approach {
+    width: 100%;
+}}

@@ -1,0 +1,143 @@
+
+
+.hero-section .row .left-column {
+  max-width: 100%;
+  width: 58%;
+}
+
+.hero-section .row {
+  display: flex;
+  gap: 2%;
+}
+
+.hero-section .row .right-column {
+  width: 40%;
+}
+
+.hero-section .row .left-column h1 {
+  font-family: "Space Grotesk";
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: -0.06em;
+}
+
+.hero-section h1 .text-highlight {
+  color: #842bf8;
+}
+
+.hero-section .row .left-column p {
+  max-width: 42rem;
+  font-family: "Open Sans";
+  font-size: 1.38rem;
+  font-weight: 400;
+  line-height: 33.6px;
+  letter-spacing: -0.5px;
+  color: #000000;
+}
+
+/* Button */
+.hero-section .row .left-column .testimonial button {
+  background: #d9d9d980;
+  width: 300px;
+  height: 48px;
+  padding: 8px 16px;
+  gap: 2px;
+  align-content: center;
+  border-radius: 50px;
+  border: 0.5px solid transparent;
+}
+
+.hero-section .row .left-column .testimonial button p {
+  font-family: "Open Sans";
+  font-size: 14px;
+  padding-top: 15px;
+  opacity: 80%;
+}
+.hero-section .row .left-column .rectangle-box {
+  width: 356px;
+  height: 68px;
+  top: 55px;
+  left: -50px;
+  opacity: 25%;
+  z-index: -1;
+  position: relative;
+  background: #ff7e29;
+}
+
+.hero-section .Sec-section {
+  background: #7c93c359;
+  box-shadow: 0px 2px 70px 0px #0000000f;
+  border-radius: 30px;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.hero-section .Sec-section h3 {
+  font-family: "Space Grotesk";
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.hero-section .Sec-section p {
+  font-family: "Open Sans";
+  font-size: 22.13px;
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    padding: 20px 30px;
+    margin-top: 0px!important;
+  }
+  
+
+  .hero-section h1 {
+    font-size: 30px !important;
+    line-height: 2rem !important;
+    font-weight: 500;
+    width: 100% !important;
+    }
+  .hero-section .left-column .pa {
+    text-align: justify;
+    line-height: 25px!important;
+  }
+
+  .hero-section .row .left-column .testimonial button p {
+    font-size: 14px !important;
+    line-height: 1;
+  }
+  .hero-section p {
+    font-size: 16px !important;
+    width: 100% !important;
+  }
+
+  .hero-section button {
+    width: 100%;
+    padding: 12px 24px;
+  }
+
+  .hero-section .rectangle-box {
+    width: 150px !important;
+    top: 22px!important;
+    height: 30px!important;
+    left: -20px !important;
+    opacity: 40%;
+}
+  .hero-section .row {
+    display: block;
+  }
+  .hero-section .Sec-section h3 {
+    font-size: 25px;
+  }
+
+  .hero-section .row .right-column img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+  .hero-section .row .right-column, .hero-section .row .left-column  {
+    width: 100%;
+  }
+  .testimonial .line{
+    display: none;
+  }
+}

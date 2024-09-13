@@ -1,0 +1,55 @@
+.Resume-section .head{
+    font-family: "Space Grotesk";
+font-size: 40px;
+line-height: 45px;
+font-weight: 700;
+}
+.Resume-section .resume-box{
+    width: 162px;
+  height: 38px;
+  top: 30px;
+  position: relative;
+  left: 170px;
+  z-index: -1;
+  gap: 0px;
+  opacity: 25%;
+  background: #FF7E29;
+  }
+.Resume-section .para{
+    font-family: "Open Sans";
+    font-size: 22.13px;
+    line-height: 33.6px;
+    letter-spacing: -0.5px;
+ 
+}
+
+.Resume-section .image-bg {
+    width: 587px;
+    height: 350px;
+    top: 35px;
+    padding: 180px 230px;
+    position: relative;
+    left: -455px;
+    z-index: -5;
+    gap: 0px;
+    border-radius: 30px;
+    background: #FACD49;
+    box-shadow: 0px 0px 24px 0px #00000029;
+}
+@media (max-width: 1500px) {
+    .Resume-section .content{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+img.resume-img{
+    width: 100%;
+}
+.Resume-section .image-bg{
+    display: none;
+}
+.Resume-section .para{
+    font-size: 20px!important;
+}
+}

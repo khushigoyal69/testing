@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .program-section .custom-card-shadow {
+    box-shadow: 0px 2px 70px 0px #0000000f;
+    border-radius: 30px;
+    width: 320px;
+    height: 355px;
+  }
+  .programcard{
+    display: flex;
+  }
+  .program-section  .program-img {
+    height: 96px;
+    width: 96px;
+    position: relative;
+    top:35px;
+    z-index: 1;
+  }
+  .program-section  .program-sec {
+    padding: 30px 30px 10px;
+}
+  .program-section .program-heading {
+    font-family: "Space Grotesk";
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .program-section .program-description {
+    font-family: "Open Sans";
+    font-size: 22.5px;
+    text-align: center;
+  }
+  
+
+  
+
+  .program-section  .designation-title{
+    font-family: "Open Sans";
+font-size: 28px;
+font-weight: 600;
+line-height: 38.13px;
+
+  }
+  .program-section .designation-description{
+    font-family: "Open Sans";
+font-size: 17.02px;
+
+
+  }
+  @media (max-width: 768px) {
+    
+  
+    .programcard{
+      display: block;
+      margin-left: 10px;
+    }
+    .program-section .custom-card-shadow {
+      width: 100%;
+      margin-left: -10px!important;
+    }
+  }
