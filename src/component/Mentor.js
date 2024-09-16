@@ -90,7 +90,7 @@ const Mentors = () => {
         <Col md={6}>
           <MentorCard
             image="images/mentor2.png"
-            name="Saumya Sharma"
+            name="Saumya Sharma "
             school="Tuck School of Business"
             classYear="2020"
             summary="During my first year of MBA, I thought that doing as many cases as possible would eventually make cracking them easy, so I focused on sheer volume."
