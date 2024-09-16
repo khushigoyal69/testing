@@ -10,7 +10,7 @@ const Footer = () => {
         <Row className="justify-content-center text-left pt-5" >
           <Col md={12}>
           <br/>  <br/>
-            <h5 className='head'>Let's bring your vision to life.</h5>
+            <h5 className='head'>Let's test bring your vision to life.</h5>
             <br/> 
             <Button 
               variant="light"
